@@ -1,0 +1,85 @@
+/*************表格样式****************/
+.markdown-body{
+    -webkit-backface-visibility: hidden;
+    font-family: Helvetica, -apple-system, BlinkMacSystemFont, "Montserrat","Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Microsoft Yahei","Helvetica Neue",Helvetica;
+
+}
+.editormd-preview-container table {
+    margin-top: 0;
+    margin-bottom: 24px;
+    width: 100%;
+    overflow: auto;
+    border-bottom: none;
+    line-height: 1.5
+}
+
+.editormd-preview-container table td,.editormd-preview-container table th {
+    padding: 8px 13px;
+    border: 1px solid #d9d9d9;
+    word-wrap: break-word;
+    text-align: left
+}
+.editormd-preview-container-body blockquote,.editormd-preview-container blockquote p {
+    font-size: 14px;
+    color: #999;
+}
+.editormd-preview-container blockquote, .editormd-html-preview blockquote{
+    font-style: normal;
+}
+.editormd-preview-container table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: 400;
+    word-break: keep-all
+}
+
+.editormd-preview-container table tr {
+    background-color: #fff
+}
+
+/**************TOC*******************/
+.markdown-toc{
+    padding: 16px 11px 4px;
+    border: 1px solid #f0f0f0;
+}
+/***********代码样式*****************/
+.markdown-body .highlight pre, .markdown-body pre{
+    padding: 1em;
+    border: none;
+    overflow: auto;
+    line-height: 1.45;
+    max-height: 35em;
+    position: relative;
+    /*background: url(../editor.md/lib/highlight/blueprint.png) #F6F6F6;*/
+    -moz-background-size: 30px,30px;
+    -o-background-size: 30px,30px;
+    -webkit-background-size: 30px,30px;
+    background-size: 30px,30px;
+    border-radius:4px;
+    word-break:break-all;
+    word-wrap:break-word;
+}
+.editormd-preview-container pre.hljs>code {
+    border-radius: 3px;
+    font-size: 1.1em;
+    font-family: "Source Code Pro",Consolas,"Liberation Mono",Menlo,Courier,'Microsoft Yahei',monospace;
+    border: 0;
+    word-break: break-all;
+    overflow-y: auto; overflow-x: hidden;
+    overflow-wrap: normal;
+    white-space: inherit
+}
+.editormd-preview-container pre.prettyprint, .editormd-html-preview pre.prettyprint {
+    padding: 0;
+}
+
+.editormd-preview-container ol.linenums, .editormd-html-preview ol.linenums{
+    color: #999;
+}
+.editormd-preview-container ol.linenums>li:first-child,.editormd-html-preview ol.linenums>li:first-child{
+    padding-top: 10px;
+}
+.editormd-preview-container ol.linenums>li:last-child ,.editormd-html-preview ol.linenums>li:last-child{
+    padding-bottom: 10px;
+}
+
